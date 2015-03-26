@@ -1,0 +1,22 @@
+[
+  { 
+    "keys": [ "{", "{" ],
+    "command": "insert_snippet",
+    "args": { "name": "Packages/liquid-syntax-mode/Snippets/double-braces-autocompletion.sublime-snippet" },
+    "context": [ {
+      "key": "selector",
+      "operator": "equal",
+      "operand": "text.html.liquid"
+    } ]
+  },
+  {
+    "keys": [ "{", "%" ],
+    "command": "insert_snippet",
+    "args": { "name": "Packages/liquid-syntax-mode/Snippets/percent-braces-autocompletion.sublime-snippet" },
+    "context": [ {
+      "key": "selector",
+      "operator": "equal",
+      "operand": "text.html.liquid"
+    } ]    
+  }
+]
